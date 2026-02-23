@@ -46,7 +46,29 @@
         background-color: unset;
         background-image: url(https://i.pinimg.com/736x/ba/ac/26/baac26f10a54ac5fe6ec22dd556b4764.jpg);
         }
+        .image>*{
+            background-color: #deb331;
+            transition: opacity 4s ease;
+        }
+        .image:hover>*{
+            opacity: 0;
+        }
         .image{
             background-color: #deb331;
         }
+
+        .table table{
+            width: 100%;
+            height: auto;
+        }
+        .welcome-text{
+            background-color: rgb(158, 42, 42);
+            width: 50%;
+            padding: 10% 10% 10% 10%;
+            text-align: justify;
+            color: white;
+        }
+
+
+        
 
