@@ -27,23 +27,26 @@
         .nav-bar:hover{
             background-color: unset;
             background-image: url(https://i.pinimg.com/736x/ba/ac/26/baac26f10a54ac5fe6ec22dd556b4764.jpg);
+            
         }
-        .burger {
-            width: 30px;
-            cursor: pointer;
-            padding-top: 10px;
-            padding-left: 20px;
-        }
-
-        .burger span {
-        display: block;
-        height: 3px;
-        background: rgb(255, 255, 255);
-        margin: 6px 0;
-        transition: 0.3s;
+        .nav-bar {
+        display: flex;          /* bikin horizontal */
+        gap: 0px;              /* jarak antar button */
         }
 
-        .burger span:hover{
-            background-color: rgba(255, 255, 255, 0.514);
+        .nav-bar button {
+        width: 25%;
+        height: 100%;
+        background-color: rgb(165, 42, 42);
+        color: white;
+        border: none;
+        }
+
+        .nav-bar button:hover{
+        background-color: unset;
+        background-image: url(https://i.pinimg.com/736x/ba/ac/26/baac26f10a54ac5fe6ec22dd556b4764.jpg);
+        }
+        .image{
+            background-color: #deb331;
         }
 
