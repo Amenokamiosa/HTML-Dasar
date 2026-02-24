@@ -1,13 +1,10 @@
 *{
     margin: 0%;
 }
-        table, th , td{
-            border: 1px solid black;
-        }
         .header h1, h2{
             text-align: center;
             padding-top: 50px;
-            color: rgb(0, 0, 0);
+            color: ;
             font-family: 'Playfair Display', serif;
         }
 
@@ -30,8 +27,8 @@
             
         }
         .nav-bar {
-        display: flex;          /* bikin horizontal */
-        gap: 0px;              /* jarak antar button */
+        display: flex;          
+        gap: 0px;              
         }
 
         .nav-bar button {
@@ -68,7 +65,34 @@
             text-align: justify;
             color: white;
         }
+        .middle-section{
+            width: 100%;
+            background:url(https://i.pinimg.com/1200x/a3/6b/6a/a36b6a8f7dcfdbc37dc8f202db9ba948.jpg) ;
+            display: flex;
+            flex-direction: row;
+            background-size: 50%;
+            background-position: right;
+        }
+        .body h3{
+            padding-top: 4%;
+            padding-bottom: 1%;
+            background-color: unset;
+        }
+        .medsos{
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: row;
+            height: 20%;
+        }
+        .medsos table{
+            width: 100%;
+            height: auto;
+        }
 
+        .medsos table{
+            text-align: center;
+        }
+    
 
         
 
